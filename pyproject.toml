@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "knowledge-gpt"
+name = "searchtool"
 version = "0.0.4"
 description = "Accurate answers and instant citations for your documents"
 authors = ["mmz-001 <70096033+mmz-001@users.noreply.github.com>"]
@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "knowledge_gpt"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 streamlit = "^1.24.0"
 langchain = "^0.0.220"
 cohere = "^3.2.1"
